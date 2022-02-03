@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+import allure
 
 @allure.story("Check valid plugin for shining panda")
 def test_shining_panda(browser):
